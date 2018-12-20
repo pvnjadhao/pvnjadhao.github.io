@@ -1,0 +1,52 @@
+/* Custom Stylesheet */
+/*  #112237 */
+/* c02a43 */
+
+.logo-custom {
+  color: #c02a43 !important;
+}
+
+.bracket {
+  font-size: 45px !important;
+}
+
+.blue-grey.darken-4 {
+  background-color: #112237 !important;
+}
+
+.secondary-color {
+  background-color: #c02a43 !important;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/* Blog style */
+#blog-post-full .blog-post-full-cat {
+  right: 0;
+}
+
+
+/* Landing page */
+.card-rounded{
+	padding: 5px;
+	margin: 0.2rem 0 2rem 0;
+	box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 100%;
+	background-color: #fff;
+}
+
+/* Side nav */
+.sidenav-header {
+  background: url("../images/user-bg.jpg") no-repeat center center;
+  background-size: cover;
+  margin-bottom: 0px;
+  padding: 15px 0 0 15px;
+}
+.sidenav-header .row {
+  margin-bottom: 0;
+}
