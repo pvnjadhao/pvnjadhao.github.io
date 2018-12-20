@@ -42,11 +42,17 @@
 
 /* Side nav */
 .sidenav-header {
-  background: url("../images/user-bg.jpg") no-repeat center center;
+  /* background: url("../img/user.jpg") no-repeat center center; */
   background-size: cover;
   margin-bottom: 0px;
   padding: 15px 0 0 15px;
 }
 .sidenav-header .row {
   margin-bottom: 0;
+}
+
+.designation {
+  padding: 0 !important;
+  color: #fff;
+  margin: 0;
 }
