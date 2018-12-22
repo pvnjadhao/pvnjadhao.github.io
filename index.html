@@ -4,11 +4,14 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-  <title>Code Space</title>
+  <title>Pavan Jadhao | Web Developer</title>
+  <link rel="icon" type="image/png" href="../img/fevicon.png" />
 
   <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="./vendor/materialize/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="./vendor/funnytext/jquery.funnyText.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
@@ -24,10 +27,12 @@
             </span>
           </a>
           <ul class="right hide-on-med-and-down blue-grey-text text-darken-4">
-            <li><a href="#" class="white-text">My Work</a></li>
-            <li><a href="#" class="white-text">Projects</a></li>
-            <li><a href="#" class="white-text">Issues</a></li>
-            <li><a href="#" class="white-text">Snippets</a></li>
+            <li><a href="./index.html" class="white-text">Home</a></li>
+            <!-- <li><a href="" class="white-text">About</a></li> -->
+            <!-- <li><a href="#" class="white-text">Projects</a></li> -->
+            <li><a href="./pages/blogs.html" class="white-text">Blog</a></li>
+            <li><a href="./pages/snippets.html" class="white-text">Snippets</a></li>
+            <li><a href="./pages/contact.html" class="white-text">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -45,107 +50,231 @@
                 data-activates="profile-dropdown">Pavan Jadhao</a>
               <p class="designation">Web Developer</p>
             </div>
-            <ul id="profile-dropdown" class="dropdown-content" style="white-space: nowrap; position: absolute; top: 23.0469px; left: 116.25px; opacity: 1; display: none;">
-              <li><a href="#"><i class="material-icons">person</i>Profile</a></li>
-              <li><a href="#"><i class="material-icons">settings</i>Setting</a></li>
-              <li><a href="#"><i class="material-icons">help</i>Help</a></li>
-              <li class="divider"></li>
-              <li><a href="#"><i class="material-icons">lock</i>Lock</a></li>
-              <li><a href="#"><i class="material-icons">exit_to_app</i>Logout</a></li>
-            </ul>
-
           </div>
         </div>
       </li>
       <li>
+        <a href="./index.html" class="white-text">
+          <i class="material-icons white-text">home</i>Home
+        </a>
+      </li>
+      <!-- <li>
         <a href="#" class="white-text">
-          <i class="material-icons white-text">group_work</i>My Work
+          <i class="material-icons white-text">person</i>About
         </a>
       </li>
       <li>
-        <a href="#" class="white-text">Projects
-          <i class="material-icons white-text">web</i>
+        <a href="#" class="white-text">
+          <i class="material-icons white-text">web</i>Projects
+        </a>
+      </li> -->
+      <li>
+        <a href="./pages/blogs.html" class="white-text">
+          <i class="material-icons white-text">import_contacts</i>Blog
         </a>
       </li>
       <li>
-        <a href="#" class="white-text">Issues
-          <i class="material-icons white-text">bug_report</i>
+        <a href="./pages/snippets.html" class="white-text">
+          <i class="material-icons white-text">code</i>Snippets
         </a>
       </li>
       <li>
-        <a href="#" class="white-text">Snippets
-          <i class="material-icons white-text">code</i>
+        <a href="./pages/contact.html" class="white-text">
+          <i class="material-icons white-text">contact_mail</i>Contact
         </a>
       </li>
     </ul>
   </header>
 
   <div class="row" style="background: linear-gradient(to bottom, #112237,#050c13);">
-    <div class="col s12 carousel">
-      <h4 class="center text-title white-text">Technology Stacks</h4>
-      <a class="carousel-item" href="#one!"><img class="card-rounded hoverable" src="img/tech/ruby.png"></a>
-      <a class="carousel-item" href="#two!"><img class="card-rounded hoverable" src="img/tech/javascript_256.png"></a>
-      <a class="carousel-item" href="#three!"><img class="card-rounded hoverable" src="img/tech/html-5.png"></a>
-      <a class="carousel-item" href="#four!"><img class="card-rounded hoverable" src="img/tech/css.png"></a>
-      <a class="carousel-item" href="#five!"><img class="card-rounded hoverable" src="img/tech/Angular-1526190252.png"></a>
-      <a class="carousel-item" href="#six!"><img class="card-rounded hoverable" src="img/tech/redis.png"></a>
-      <a class="carousel-item" href="#seven!"><img class="card-rounded hoverable" src="img/tech/ts.png"></a>
-      <a class="carousel-item" href="#eight!"><img class="card-rounded hoverable" src="img/tech/react.png"></a>
+    <div class="intro">
+      <div class="animated-bar"></div>
+
+      <div class="slide slide-a">
+        <div class="slide-content">
+          <p class="slide-a-child">Hi There!</p>
+          <h1 class="slide-a-child">My name is Pavan</h1>
+          <p class="slide-a-child">I'm a Back-end And Front-end developer</p>
+        </div>
+      </div>
+
+      <div class="slide slide-b">
+        <div class="slide-content">
+          <h2 class="slide-b-child">what I do</h2>
+          <p class="slide-b-child">I design modern, clean and creative websites</p>
+          <p class="slide-b-child">And make them alive on the internet</p>
+        </div>
+      </div>
+
+      <div class="slide slide-c">
+        <div class="slide-content">
+          <h2 class="slide-c-child">What I use</h2>
+          <ul>
+            <li class="slide-c-child">
+              <p>Ruby</p>
+            </li>
+            <li class="slide-c-child">
+              <p>HTML5</p>
+            </li>
+            <li class="slide-c-child">
+              <p>CSS3</p>
+            </li>
+            <li class="slide-c-child">
+              <p>Javascript</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="slide slide-d">
+        <div class="slide-content">
+          <h2 class="slide-d-child">Thanks for watching </h2>
+          <p class="slide-d-child">You can check my <a href="#">blogs</a></p>
+          <button class="slide-d-child replay">Replay</button>
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="container">
-    <div class="section">
-      <div id="blog-post-full">
-        <!-- medium size post-->
-        <div class="card medium">
-          <div class="card-image">
-            <img src="img/pexels-photo-204611.jpeg" alt="sample">
-            <span class="card-title">Strawberries on the Table</span>
-            <span class="card-title blog-post-full-cat right">
-              <a href="#!">
-                <span class="new badge red accent-2" data-badge-caption="UI/UX"></span>
-                <span class="new badge cyan m-0" data-badge-caption="Web Design"></span>
-              </a>
-            </span>
-          </div>
-          <div class="card-content">
-            <p class="ultra-small">June 30, 2107</p>
-            <p>I am a very simple full width blog post. I am good at containing small bits of information. I am
-              convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <div class="chip">
-              <img src="img/man.png" alt="Contact Person" class="cyan"> <a href="#!">Jane Doe</a>
-            </div>
-            <a href="#!" class="waves-effect waves-teal btn-flat right m-0 p-0">Read more <i class="material-icons right">arrow_forward</i></a>
+    <header>
+      <div class="container text-center">
+        <h1 class="center">Journey</h1>
+      </div>
+    </header>
+
+    <section class="timeline">
+      <div class="container">
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+
+          <div class="timeline-content js--fadeInLeft">
+            <h2>Title</h2>
+            <div class="date">1 MAY 2016</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate
+              saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores.
+              Alias, ullam.</p>
+            <a class="bnt-more" href="javascript:void(0)">More</a>
           </div>
         </div>
-        <!-- medium size post-->
-        <div class="card medium">
-          <div class="card-image">
-            <img src="img/pexels-photo-877695.jpeg" alt="sample">
-            <span class="card-title">What is on the Table?</span>
-            <span class="card-title blog-post-full-cat right">
-              <a href="#!">
-                <span class="new badge deep-orange accent-2 m-0" data-badge-caption="HTML"></span>
-              </a>
-            </span>
-          </div>
-          <div class="card-content">
-            <p class="ultra-small">June 30, 2107</p>
-            <p>I am a very simple full width blog post. I am good at containing small bits of information. I am
-              convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <div class="chip">
-              <img src="img/man.png" alt="Contact Person" class="cyan"> <a href="#!">Jane Doe</a>
+
+        <div class="timeline-item">
+
+          <div class="timeline-img"></div>
+
+          <div class="timeline-content timeline-card js--fadeInRight">
+            <div class="timeline-img-header">
+              <h2>Card Title</h2>
             </div>
-            <a href="#!" class="waves-effect waves-teal btn-flat right m-0 p-0">Read more <i class="material-icons right">arrow_forward</i></a>
+            <div class="date">25 MAY 2016</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate
+              saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores.
+              Alias, ullam.</p>
+            <a class="bnt-more" href="javascript:void(0)">More</a>
+          </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+          <div class="timeline-img"></div>
+
+          <div class="timeline-content js--fadeInLeft">
+            <div class="date">3 JUN 2016</div>
+            <h2>Quote</h2>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor
+              iste fugit totam quasi inventore!</blockquote>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+
+          <div class="timeline-img"></div>
+
+          <div class="timeline-content js--fadeInRight">
+            <h2>Title</h2>
+            <div class="date">22 JUN 2016</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate
+              saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores.
+              Alias, ullam.</p>
+            <a class="bnt-more" href="javascript:void(0)">More</a>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+
+          <div class="timeline-img"></div>
+
+          <div class="timeline-content timeline-card js--fadeInLeft">
+            <div class="timeline-img-header">
+              <h2>Card Title</h2>
+            </div>
+            <div class="date">10 JULY 2016</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate
+              saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores.
+              Alias, ullam.</p>
+            <a class="bnt-more" href="javascript:void(0)">More</a>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+
+          <div class="timeline-img"></div>
+
+          <div class="timeline-content timeline-card js--fadeInRight">
+            <div class="timeline-img-header">
+              <h2>Card Title</h2>
+            </div>
+            <div class="date">30 JULY 2016</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate
+              saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores.
+              Alias, ullam.</p>
+            <a class="bnt-more" href="javascript:void(0)">More</a>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+
+          <div class="timeline-img"></div>
+
+          <div class="timeline-content js--fadeInLeft">
+            <div class="date">5 AUG 2016</div>
+            <h2>Quote</h2>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta explicabo debitis omnis dolor
+              iste fugit totam quasi inventore!</blockquote>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-img"></div>
+
+          <div class="timeline-content timeline-card js--fadeInRight">
+            <div class="timeline-img-header">
+              <h2>Card Title</h2>
+            </div>
+            <div class="date">19 AUG 2016</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate
+              saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores.
+              Alias, ullam.</p>
+            <a class="bnt-more" href="javascript:void(0)">More</a>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+
+          <div class="timeline-img"></div>
+
+          <div class="timeline-content js--fadeInLeft">
+            <div class="date">1 SEP 2016</div>
+            <h2>Title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate
+              saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores.
+              Alias, ullam.</p>
+            <a class="bnt-more" href="javascript:void(0)">More</a>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </div>
 
   <footer class="page-footer blue-grey darken-4">
@@ -156,8 +285,6 @@
           <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our
             full time job. Any amount would help support and continue development on this project and is greatly
             appreciated.</p>
-
-
         </div>
         <div class="col l3 s12">
           <h5 class="white-text">Settings</h5>
@@ -187,27 +314,10 @@
   </footer>
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <script src="js/init.js"></script>
-  <script>
-    $(document).ready(function () {
-      $(".carousel").carousel({
-        duration: 200,
-        dist: -50,
-        padding: 40,
-        indicators: true,
-        numVisible: 6
-      });
-
-      autoplay();
-
-      function autoplay() {
-        $('.carousel').carousel('next');
-        setTimeout(autoplay, 1500);
-      }
-    });
-  </script>
+  <script src="./vendor/jquery/jquery-2.1.1.js"></script>
+  <script src="./vendor/materialize/materialize.min.js"></script>
+  <script src="./vendor/funnytext/jquery.funnyText.min.js"></script>
+  <script src="./js/app.js"></script>
 </body>
 
 </html>
