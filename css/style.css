@@ -4,6 +4,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background: linear-gradient(to bottom, #f1f1f1,#ffffff);
+  overflow-x: hidden;
 }
 
 .logo-custom {
@@ -89,7 +90,7 @@ body {
 
 .intro {
   width: 100%;
-  min-height: 60vh;
+  min-height: 100vh;
   position: relative;
 }
 .intro .animated-bar {
@@ -583,4 +584,5 @@ body {
 
 .instagram:hover {
   border-color: #e00086;
+  background: #000000;
 }

@@ -14,3 +14,9 @@ facebook
 twitter
 youtube
 instagram
+
+* timeline
+2010-2013 Poly
+2013-2016 BE
+2016-2017 Capearc
+2017 - Cryptextechnologies
