@@ -16,7 +16,15 @@ youtube
 instagram
 
 * timeline
-2010-2013 Poly
-2013-2016 BE
-2016-2017 Capearc
 2017 - Cryptextechnologies
+  - Ruby on Rails Developer
+  - Nagpur
+
+2016-2017 Capearc
+  - Junior developer
+  - Nagpur
+2013-2016 BE
+2010-2013 Poly
+- Dr N P Hirani Institute of Polytechnic
+
+
