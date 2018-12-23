@@ -90,8 +90,9 @@ body {
 
 .intro {
   width: 100%;
-  min-height: 100vh;
+  min-height: 93vh;
   position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
 .intro .animated-bar {
   width: 0;
@@ -514,7 +515,144 @@ body {
   }
 }
 
+/* Skill Progress Bar */
+.skill-wrapper {
+  background: linear-gradient(to bottom, #112237,#050c13);
+  padding-top: 50px;
+  padding-bottom: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper{
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin:0 auto;
+  color: #fff;
+}
+.skill {
+  margin-bottom: 35px;
+  position: relative;
+overflow-x:hidden;
+
+}
+.skill > p {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+.skill:before{
+  width: 100%;
+  height: 19px;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #959595;
+  bottom: 0;
+}
+.skill-bar {
+  width: 100%;
+  height: 19px;
+  display: block;
+  position: relative;
+}
+
+/* SKILL 1 */
+.skill1{
+  width: 95%;
+  background:#e44c2b;
+}
+.skill-bar span{
+  position: absolute;
+  /* border-top: 5px solid #f4392f; */
+  top: -30px;
+  padding: 0;
+  font-size: 18px;
+  padding: 3px 0;
+  font-weight: 500;
+}
+.skill-bar {
+  position: relative;
+}
+
+.skill1 .skill-count1 {
+  right: 0;
+}
+/* SKILL 2 */
+.skill2{
+  width: 85%;
+  background: #54aadf;
+}
+
+.skill2 .skill-count2 {
+  right: 0;
+}
+/* SKILL 3 */
+.skill3{
+  width: 75%;
+  background: #ffeb00;
+}
+.skill3 .skill-count3 {
+  right: 0;
+}
+
+/* SKILL 4 */
+.skill4{
+  width: 65%;
+  background: #df2e31;
+}
+
+.skill4 .skill-count4 {
+  right: 0;
+}
+
+/* SKILL 5 */
+.skill5{
+  width: 80%;
+  background: #bb1600;
+}
+
+.skill5 .skill-count5 {
+  right: 0;
+}
+
+/* SKILL 6 */
+.skill6{
+  width: 90%;
+  background: #cb2827;
+}
+
+.skill6 .skill-count6 {
+  right: 0;
+}
+
+/* SKILL 7 */
+.skill7{
+  width: 90%;
+  background: #e48d1f;
+}
+
+.skill7 .skill-count7 {
+  right: 0;
+}
+
+/* SKILL 8 */
+.skill8{
+  width: 90%;
+  background: #336790;
+}
+
+.skill8 .skill-count8 {
+  right: 0;
+}
+
 /* Footer style */
+
+footer {
+  background: linear-gradient(to bottom, #112237,#050c13);
+}
+
 .connect-link {
   height: 30px;
   width: 30px;

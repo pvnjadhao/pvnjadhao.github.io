@@ -7,6 +7,9 @@ https://codepen.io/savalazic/pen/QKwERN/
 https://codepen.io/itbruno/pen/KwarLp/
 https://codepen.io/krishnab/pen/OPwqbW/
 
+-- Progress bars 
+https://codepen.io/ArnaudBalland/pen/PwgqMO
+
 
 * social media links
 github
@@ -28,3 +31,12 @@ instagram
 - Dr N P Hirani Institute of Polytechnic
 
 
+# Skills
+HTML
+CSS
+JAVASCRIPT
+ANGULAR 6
+RUBY
+RAILS
+MYSQL
+POSTGRESSQL
